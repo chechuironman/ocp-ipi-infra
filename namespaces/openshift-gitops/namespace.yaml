@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: openshift-gitops
   annotations:
-      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "infra", "Operator": "Exists",  "Effect": "NoExecute"}]'
+      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "infra",   "Effect": "NoExecute"}]'
       scheduler.alpha.kubernetes.io/node-selector: node-role.kubernetes.io/infra
