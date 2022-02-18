@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: openshift-networkk-diagnostic
+  name: openshift-network-diagnostic
   annotations:
       scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "node-role.kubernetes.io/infra", "value": ""}]'
