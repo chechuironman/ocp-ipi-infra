@@ -4,4 +4,3 @@ metadata:
   name: openshift-operators
   annotations:
       scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "node-role.kubernetes.io/infra", "Operator": "Equal", "Value": "true", "Effect": "NoExecute"}]'
-      scheduler.alpha.kubernetes.io/node-selector: node-role.kubernetes.io/infra
