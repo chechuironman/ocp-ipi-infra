@@ -4,4 +4,4 @@ metadata:
   name: openshift-ingress
   annotations:
       scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "node-role.kubernetes.io/infra", "value": ""}]'
-      scheduler.alpha.kubernetes.io/node-selector: node-role.kubernetes.io/infra
+      scheduler.alpha.kubernetes.io/node-selector: node-role.kubernetes.io/infra=
