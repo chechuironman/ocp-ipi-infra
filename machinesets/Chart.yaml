@@ -2,9 +2,9 @@ apiVersion: v2
 name: refarch-machinesets
 description: MachineSets for Infrastructure Nodes, Storage and CloudPaks
 type: application
-version: 0.4.11
+version: 0.4.13
 appVersion: "1.0"
 dependencies:
   - name: machinesets
-    version: 0.4.12
+    version: 0.4.13
     repository: https://chechuironman.github.io/helm-repo/
