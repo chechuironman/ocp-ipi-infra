@@ -5,4 +5,4 @@ metadata:
     openshift.io/cluster-monitoring: "true"
   annotations:
     scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'
-  name: openshift-cluster-storage-operator
+  name: openshift-multus

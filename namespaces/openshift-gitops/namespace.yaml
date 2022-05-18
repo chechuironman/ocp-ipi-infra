@@ -2,5 +2,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: openshift-gitops
+  labels:
+    openshift.io/cluster-monitoring: "true"
   annotations:
-      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'
+    scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'

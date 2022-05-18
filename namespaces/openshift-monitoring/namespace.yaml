@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   labels:
     openshift.io/cluster-monitoring: "true"
-    annotations:
-      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'
+  annotations:
+    scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'
   name: openshift-monitoring
