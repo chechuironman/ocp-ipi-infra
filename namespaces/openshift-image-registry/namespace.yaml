@@ -3,5 +3,6 @@ kind: Namespace
 metadata:
   name: openshift-image-registry
   annotations:
-      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "node-role.kubernetes.io/infra", "value": ""}]'
-  
+    openshift.io/cluster-monitoring: "true"
+    annotations:
+      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'
