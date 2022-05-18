@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: openshift-operator-lifecycle-manager
   annotations:
-      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "node-role.kubernetes.io/infra", "value": ""}]'
+      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""}]'
