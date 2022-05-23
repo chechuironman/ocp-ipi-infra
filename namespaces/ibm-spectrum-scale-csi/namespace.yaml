@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: openshift-cluster-csi-drivers
+  name: ibm-spectrum-scale-csi
   labels:
     openshift.io/cluster-monitoring: "true"
   annotations:
