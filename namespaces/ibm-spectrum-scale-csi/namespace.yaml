@@ -5,4 +5,4 @@ metadata:
   labels:
     openshift.io/cluster-monitoring: "true"
   annotations:
-    scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""},{"Key": "node.ocs.openshift.io/storage", "Operator": "Equal", "Value": "true", "Effect": "NoSchedule"},{"effect":"NoSchedule", "key": "fusion", "value": "true"}]'
+    scheduler.alpha.kubernetes.io/defaultTolerations: '[{"effect":"NoSchedule", "key": "infra", "value": ""},{"Key": "node.ocs.openshift.io/storage", "Operator": "Equal", "Value": "true", "Effect": "NoSchedule"}]'
