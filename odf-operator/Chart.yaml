@@ -2,9 +2,9 @@ apiVersion: v2
 name: odf-operator
 description: Deployment of OpenShift Data Foudnation
 type: application
-version: 0.1.17
+version: 0.1.18
 appVersion: "0.1.0"
 dependencies:
   - name: odf-operator
-    version: 0.1.17
+    version: 0.1.18
     repository: https://chechuironman.github.io/helm-repo/
