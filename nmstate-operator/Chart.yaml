@@ -1,0 +1,10 @@
+apiVersion: v2
+name: nmstate-operator
+description: Deployment of nmstate operator
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+dependencies:
+  - name: nmsate-operator
+    version: 0.1.0
+    repository: https://chechuironman.github.io/helm-repo/
