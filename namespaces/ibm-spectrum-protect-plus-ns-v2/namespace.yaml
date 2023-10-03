@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ibm-spectrum-protect-plus-ns
+  labels:
+    openshift.io/cluster-monitoring: "true"
+  annotations:
+    scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "fusion", "Operator": "Equal", "Value": "true", "Effect": "NoSchedule"}]'
