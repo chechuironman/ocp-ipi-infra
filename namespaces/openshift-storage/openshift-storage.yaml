@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   labels:
     openshift.io/cluster-monitoring: "true"
-    annotations:
+    # annotations:
     #   scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "node.ocs.openshift.io/storage", "Operator": "Equal", "Value": "true", "Effect": "NoExecute"}]'
     #  scheduler.alpha.kubernetes.io/node-selector: node-role.kubernetes.io/storage=
   name: openshift-storage
