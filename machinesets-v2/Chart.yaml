@@ -1,0 +1,10 @@
+apiVersion: v2
+name: machinesets-v3
+description: MachineSets for Infrastructure Nodes, Storage and CloudPaks
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: machinesets-v3
+    version: 0.1.0
+    repository: https://chechuironman.github.io/helm-repo/
